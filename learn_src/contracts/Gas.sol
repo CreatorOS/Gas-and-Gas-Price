@@ -10,8 +10,8 @@ contract Gas {
     function forever() public {
         // Here we run a loop until all of the gas are spent
         // and the transaction fails
-        while (true) {
-            i += 1;
-        }
+
+        // write a loop that runs until the gas is spent
+        
     }
 }
