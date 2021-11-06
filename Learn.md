@@ -40,3 +40,5 @@ Let's write a function that will run until it runs out of gas.
 ```
 
 Here we have written a loop that will run untill it runs out of gas and the transaction fails.
+
+Hit `Run` and you will see that the transaction fail logs in the output.
