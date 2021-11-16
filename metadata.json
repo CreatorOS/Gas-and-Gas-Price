@@ -2,11 +2,21 @@
   "version": "1.0.0",
   "defaultFile": "contracts/Gas.sol",
   "environment": "solidity",
-  "setupCommands": ["npm i", "npx hardhat compile"],
+  "setupCommands": [
+    "npx hardhat compile"
+  ],
   "compileCommand": "npx hardhat compile",
   "tests": [
-    { "itShould": "Compile", "command": "sh learn_tests/16.sh" },
-    { "itShould": "Call foreverGas", "command": "sh learn_tests/17.sh" }
+    {
+      "itShould": "Compile",
+      "command": "sh learn_tests/16.sh"
+    },
+    {
+      "itShould": "Call foreverGas",
+      "command": "sh learn_tests/17.sh"
+    }
   ],
-  "learnerAccessibleFileList": ["contracts/*"]
+  "learnerAccessibleFileList": [
+    "contracts/*"
+  ]
 }
